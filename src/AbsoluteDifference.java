@@ -6,7 +6,8 @@
         num: an integer to compare against.
         diff: an integer representing the maximum allowable absolute difference.
 
-  The function should return the count of elements in arr that have an absolute difference with num less than or equal to diff. If no such elements exist, return -1.
+  The function should return the count of elements in arr that have an absolute difference with num less than or equal to diff.
+  If no such elements exist, return -1.
 
   Example:
        Input:
