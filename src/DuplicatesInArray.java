@@ -15,13 +15,12 @@ Function Description:
 Example:
 
 Input:
-    arr = {2, 3, 1, 4, 5, 1, 4, 2}
+    arr = [2, 3, 1, 4, 5, 1, 4, 2]
 
 Output:
     [1, 4, 2]
 
 Explanation:
-
     The array contains duplicate values 1, 4, and 2. The function identifies and returns these duplicates.
  */
 
