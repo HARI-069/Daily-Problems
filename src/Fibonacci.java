@@ -2,6 +2,10 @@ public class Fibonacci {
     public static void main(String... a) {
         int inputNum = 10;
         fibonacci(inputNum);
+
+        for (int i = 0; i < inputNum; i++) {
+            System.out.println(fibonacciRec(i));
+        }
     }
 
     static void fibonacci(int num) {
@@ -16,5 +20,9 @@ public class Fibonacci {
             }
             System.out.println(next);
         }
+    }
+
+    static int fibonacciRec(int num) {
+        return (num <= 1) ? num :fibonacciRec(num - 1) + fibonacciRec(num -2);
     }
 }
