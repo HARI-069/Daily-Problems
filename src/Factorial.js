@@ -4,9 +4,10 @@ const factorial = function(num) {
   if(num < 0) return -1;
 
   let result = 1;
-  for(let i = 1; i <= num; i++) {
-      result *= i;
-  }
+  // for(let i = 1; i <= num; i++) {
+  //     result *= i;
+  // }
+  for(let i = 1; i <= num; result *= i, i++);
   return result;
 }
 
