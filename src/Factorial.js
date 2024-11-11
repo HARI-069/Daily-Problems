@@ -10,4 +10,7 @@ const factorial = function(num) {
   return result;
 }
 
+const factorialRecursion = (num) => (num === 0 || num === 1) ? 1 : num * factorialRecursion(num - 1);
+
 console.log(factorial(5))
+console.log(factorialRecursion(5))
