@@ -1,7 +1,7 @@
 public class Prime {
     public static void main(String[] args) {
         int inputNum1 = 7;
-        int inputNum2 = 5;
+        int inputNum2 = 15;
         System.out.println(isPrime(inputNum1));
         System.out.println(isPrime(inputNum2));
     }
